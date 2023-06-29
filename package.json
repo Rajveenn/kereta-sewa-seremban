@@ -1,0 +1,90 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "node server.js",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "sitemap": "vue-cli-service sitemap",
+    "start": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "async_hooks": "^1.0.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^3.6.5",
+    "csvjson": "^5.1.0",
+    "floating-vue": "^1.0.0-beta.19",
+    "hashids": "^2.0.1",
+    "leaflet": "^1.5.1",
+    "less-loader": "^6.0.0",
+    "libphonenumber-js": "^1.10.24",
+    "lodash": "^4.17.15",
+    "moment": "^2.29.4",
+    "netlify-plugin-service-worker": "^1.0.0",
+    "nprogress": "^0.2.0",
+    "particles-bg-vue": "^1.3.5",
+    "prerender-spa-plugin": "^3.4.0",
+    "random-material-color": "^1.0.5",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.6.11",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-cookies": "^1.5.13",
+    "vue-gtag": "^1.16.1",
+    "vue-json-edit-modal": "github:melvinchng/vue-json-edit-modal",
+    "vue-json-editor": "^1.4.0",
+    "vue-phone-number-input": "^1.12.13",
+    "vue-router": "^3.5.2",
+    "vue-window": "^1.0.0",
+    "vue2-leaflet": "^2.4.2",
+    "vuetify": "^2.5.3",
+    "vuetify-upload-button": "^2.0.2",
+    "vuex": "^3.1.0",
+    "xlsx": "^0.17.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.0.45",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.0.1",
+    "deepmerge": "^4.2.2",
+    "eslint": "^5.15.3",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-webpack-plugin": "~4.0.0-beta.11",
+    "sass": "~1.32",
+    "sass-loader": "^10",
+    "vue-cli-plugin-sitemap": "~2.3.0",
+    "vue-cli-plugin-vuetify": "~2.4.1",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.6.11",
+    "vue-textra": "^1.3.0",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": "16.13.0"
+  }
+}

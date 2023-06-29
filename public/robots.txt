@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /car/:id
+Disallow: /home
+Disallow: /edit
+Disallow: /addCar
+Disallow: /addBooking
+Disallow: /editUser/:cardId
+Disallow: /editBooking/:cardId
